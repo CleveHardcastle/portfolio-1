@@ -7,33 +7,43 @@
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>Cleve's Portfolio</title>
 </head>
-<body class="body">
-  <header class="header">
-    <div class="h1">
-      <h1 class="h1-text">Cleve's Portfolio</h1>
-    </div>
-    <div class="h2">
-      <h2 class="h2-text">About Me</h2>
-      <h2 class="h2-text">Work</h2>
-      <h2 class="h2-text">Contact Me</h2>
-      <h2 class="h2-text">Resume</h2>
-    </div>
-  </header>
 
-  <main>
+<body>
+  <header>
     <div>
-      <div class="h3">
-          <h3 class="h3-text">About Me</h3>
-          <p class="p">test text</p>
-          <p class="p">let me guess</p>
-      </div>
-      <div class="h3">
-        <h3 class="h3-text">Work</h3>
-      </div>
-      <div class="h3">
-        <h3 class="h3-text">Contact Me</h3>
-      </div>
-      <div class="content">
-      </div>
-  </main>
-</body>
+      <h1 id="header">Cleve's Portfolio</h1>
+      <nav>
+        <a href="#about">About Me</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+<main class="page-wrapper">
+  <section id="about">
+    <h2>About Me</h2>
+    <div>
+      <p class="text">
+        I am currently a student attending the UCI continuing education bootcamp. This is the first real website I will deploy and I'm excited to see how it'll turn out!
+      </p>
+    </div>
+  </section>
+  <section id="work">
+    <h2>Work</h2>
+    <div class="content-container">
+      <a href="#" class="content first-image">
+        <div>
+          <h3>Coming Soon!</h3>
+        </div>
+      </a>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <div>
+      <a href="tel:+9515539700">951.553.9700</p>
+      <a href="mailto:treyhardcastle@gmail.com">treyhardcastle@gmail.com</p>
+      <a href="https://github.com/CleveHardcastle">Github</a>
+    </div>
+  </section>
+</main>

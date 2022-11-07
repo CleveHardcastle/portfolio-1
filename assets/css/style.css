@@ -8,68 +8,76 @@
   --blue: rgba(71, 121, 183, 0.972);
 }
 
-.header {
-  height: 50px;
-  border: 30px solid var(--gray);
-  background-color: var(--gray);
-  margin-top: 0;
+body {
+  margin: 0;
   padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  background-color: rgb(242, 241, 241);
 }
 
-.h1 {
-  position: relative;
-  display: inline-block;
-  border: 1px solid var(--cyan);
-  background-color: var(--cyan);
-  padding: 15px;
-  border-left: 50px solid var(--cyan);
-  margin-left: -15px;
-  margin-top: -20px;
-}
-
-.h1-text {
-  font-size: 50px;
-}
-
-.h2 {
-  position: absolute;
-  margin-left: 500px;
-  margin-top: 45px;
+h2 {
   color: var(--cyan);
-  text-decoration: underline;
-  display: inline-flex;
-}
-
-.h2-text {
-  margin-left: 25px;
-  font-weight: bolder;
-  font-size: 25px;
-}
-
-.body {
-  background-color: rgb(240, 240, 240);
-}
-
-.h3 {
-  width: 200px;
-  margin-top: 50px;
-  margin-right: 10px;
-  padding-right: 5px;
-  border-right: 5px solid var(--cyan);
-  display: inline;
-  flex-direction: column;
-}
-
-/* .h3-text {
-  position: relative;
-  color: var(--blue);
-  font-weight: bolder;
   font-size: 50px;
-  padding-right: 10px;
-  display: inline;
-} */
+}
 
-.p {
-  display: inline;
-  flex-direction: column;
+header {
+  padding: 15px 6% 15px 0;
+  display: flex;
+  background-color: var(--gray);
+  color: var(--gray)
+}
+
+nav a {
+  color: var(--cyan);
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+main {
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+#header {
+  border: 5px solid var(--cyan);
+  background-color: var(--cyan);
+}
+
+.text {
+  font-size: 20px;
+}
+
+.page-wrapper {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  min-height: 500px;
+  min-width: 60%;
+}
+
+.contact a {
+  font-size: 30px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.contact a:hover {
+  background-color: var(--cyan);
+}
+
+/* background images */
+
+.first-image {
+  background-image: url(../images/neon.jpg)
 }
