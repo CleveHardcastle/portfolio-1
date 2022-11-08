@@ -44,16 +44,13 @@ main {
 p {
   font-size: 25px;
 }
-
+/* Nav bar header */
 #header {
   width: 100%;
   border: 5px solid var(--cyan);
   background-color: var(--cyan);
 }
 
-.text {
-  font-size: 20px;
-}
 /* image formating */
 .img {
   padding-top: 15px;
